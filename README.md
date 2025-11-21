@@ -1,1 +1,1 @@
-# udemy-clone-project
+This project is a simple Udemy clone built using HTML and basic CSS. It includes a clean homepage layout with a navigation bar, categories, banner section, and course card design. The main goal of this project is to practice front-end fundamentals such as layout, styling, spacing, and basic UI structure without using any frameworks. This is a beginner-friendly project and serves as a good starting point for learning web development.
