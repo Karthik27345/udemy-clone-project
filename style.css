@@ -5,6 +5,10 @@
     border-bottom: solid black 1px;
     gap: 10px;
     align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
 }
 
 body {
@@ -48,6 +52,26 @@ body {
     align-items: center;
 }
 
+.mylearning{
+    position: relative;
+    cursor: pointer;
+}
+
+.mylearning__popup{
+    position: absolute;
+    border: solid black 1px;
+    padding: 10px;
+    width: 100px;
+    top: 150%;
+    display: none;
+    background-color: white;
+    right: 0;
+
+}
+
+.mylearning:hover .mylearning__popup{
+    display: block;
+}
 .categories{
     display: flex;
     justify-content: space-around;
@@ -147,3 +171,4 @@ flex-basis: 25%;
 .footer-one p{
     margin: 20px;
 }
+
