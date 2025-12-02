@@ -85,11 +85,51 @@ body {
     color: white;
     padding: 10px;
     border-radius: 30px;
+    cursor: pointer;
+    border: #A435F0 solid 1px;
 
+}
+
+.categories p:hover{
+background-color: transparent;
+color: black;
+border: #A435F0 solid 1px;
+transition: 1s;
 }
 
 .sale-image img{
     width: 100%;
+}
+
+.sale-image{
+    position: relative;
+}
+
+.saleimage__offer{
+    border: solid black 2px;
+    padding: 20px;
+    width: fit-content;
+    position: absolute;
+    top: 60px;
+    background-color: white;
+    left: 30px;
+   animation-name: zoom;
+   animation-duration: 2s;
+   opacity: 0;
+   animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+0%{
+    opacity: 0;
+    transform: scale(0);
+}
+
+100%{
+    opacity: 1;
+    transform: scale(1);
+}
+    
 }
 
 .course-card{
